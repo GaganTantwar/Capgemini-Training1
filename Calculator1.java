@@ -25,7 +25,13 @@ public class Calculator1 {
                 int mul=num1*num2;
                 System.out.println("This Multiply :"+ mul);
                 break;
-            
+            case 4:
+                int div=num1*num2;
+                System.out.println("This Division:"+ div);
+                break;
+            default:
+                System.out.println("Invalid Choice");
+                
         }
     }
 }
