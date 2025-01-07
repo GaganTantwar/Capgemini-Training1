@@ -21,6 +21,11 @@ public class Calculator1 {
                 int sub = num1 - num2;
                 System.out.println("The sub is: " + sub);
                 break;
+            case 3:
+                int mul=num1*num2;
+                System.out.println("This Multiply :"+ mul);
+                break;
+            
         }
     }
 }
